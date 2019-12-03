@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Honey, i'm home!</h1>
+    <h1>Just call me baby</h1>
   </div>
 </template>
 <script>
