@@ -1,10 +1,24 @@
 <template>
   <div id="app">
-    <router-link to="/">Home</router-link>
-    <router-link to="/contacts">Contacts</router-link>
+    <div class="wrapper">
+      <Header />
+    </div>
   </div>
 </template>
 
-<style lang="scss">
+<script>
+import Header from '@/components/Header.vue';
 
+export default {
+  components: {
+    Header,
+  },
+};
+</script>
+
+<style lang="scss">
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
 </style>
