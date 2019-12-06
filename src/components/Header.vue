@@ -3,9 +3,9 @@
   <div class="header_blur">
     <div class="header_logo"></div>
     <div class="header_nav">
-      <router-link class="link" to="/">Home</router-link>
-      <router-link class="link" to="/contacts">Contacts</router-link>
-      <router-link class="link" to="/contacts">Привет писикоша</router-link>
+      <router-link class="link" to="/">Главная</router-link>
+      <router-link class="link" to="/">Работы</router-link>
+      <router-link class="link" to="/contacts">Связаться</router-link>
     </div>
     <div class="header_burger"></div>
   </div>
@@ -17,7 +17,9 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss">
+$border-color:#24C020;
+
 .header {
   width: 100%;
   max-width: 1920px;
@@ -28,17 +30,22 @@ export default {
 }
 .header_logo {
   width: 7%;
-  background: red;
+  border-right: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
 }
 .header_nav {
+  display: flex;
   width: 88%;
+  border-bottom: 1px solid $border-color;
+  justify-content: center;
 }
 .header_burger {
   width: 5%;
-  background: blue;
+  border-left: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
 }
 .link {
-  font-size: 30px;
+  font-size: 50px;
   margin-left: 20px;
 }
 </style>

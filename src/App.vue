@@ -23,21 +23,16 @@ export default {
 }
 @font-face {
   font-family: main-font; /* Гарнитура шрифта */
-  src: url(assets/circe-rounded.otf); /* Путь к файлу со шрифтом */
+  src: url(assets/camper.woff); /* Путь к файлу со шрифтом */
 }
 body {
   font-family: main-font;
-  background-image: url(./assets/temp-img.jpg);
-}
-body::after {
-  content: '';
-  width: 100%;
-  height: 100px;
-  filter: blur(10px);
+  background-color: #000000;
+  color: #24C020;
 }
 a {
   text-decoration: none;
-  color: #000000;
+  color: #24C020;
 }
 .wrapper {
   max-width: 1920px;
