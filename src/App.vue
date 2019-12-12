@@ -5,7 +5,9 @@
         <Menu />
       </div>
       <div class="content_side">
-        <div class="test_block"></div>
+        <div class="test_block">
+          Главная страница
+        </div>
       </div>
     </div>
   </div>
@@ -39,37 +41,36 @@ export default {
   src: url(assets/fonts/URWGeometric-Black.woff);
 }
 body {
-  font-family: regular;
+  font-family: fat;
   background-color: #FEEDD3;
-  color: #24C020;
+  color: #000000;
   box-sizing: border-box;
 }
 a {
   text-decoration: none;
-  color: #009900;
+  color: #FEEDD3;
 }
 .wrapper {
-  max-width: 1880px;
-  margin: 8px auto;
-  background: #209F84;
-  min-width: 95%;
-  min-height: 800px;
+  max-width: 1400px;
+  margin: 20px auto;
+  background: #1034A6;
+  min-height: 900px;
   border-radius: 40px;
   display: flex;
-  padding: 7px;
   box-sizing: border-box;
 }
 .menu_side {
-  width: 18%;
+  width: 25%;
 }
 .content_side {
   background: #EFFAFC;
   width: 100%;
-  height: 800px;
+  height: 100%;
+  min-height: 890px;
   display: block;
   border-radius: 40px;
-  padding: 20px;
   box-sizing: border-box;
+  margin: 7px 7px 7px 0;
 }
 .test_block {
   width: 90%;
