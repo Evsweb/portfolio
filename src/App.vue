@@ -5,8 +5,10 @@
         <Menu />
       </div>
       <div class="content_side">
-        <div class="test_block">
-          Главная страница
+        <div class="content_padding">
+          <div class="test_block">
+            Тут инфа обо мне, начальная красивая какая нибудь
+          </div>
         </div>
       </div>
     </div>
@@ -40,8 +42,12 @@ export default {
   font-family: megafat;
   src: url(assets/fonts/URWGeometric-Black.woff);
 }
+@font-face {
+  font-family: days;
+  src: url(assets/fonts/days.woff);
+}
 body {
-  font-family: fat;
+  font-family: days;
   background-color: #FEEDD3;
   color: #000000;
   box-sizing: border-box;
@@ -53,8 +59,9 @@ a {
 .wrapper {
   max-width: 1400px;
   margin: 20px auto;
-  background: #1034A6;
+  background: #18a3a1;
   min-height: 900px;
+  max-height: 800px;
   border-radius: 40px;
   display: flex;
   box-sizing: border-box;
@@ -65,17 +72,35 @@ a {
 .content_side {
   background: #EFFAFC;
   width: 100%;
-  height: 100%;
-  min-height: 890px;
+  height: 885px;
   display: block;
   border-radius: 40px;
   box-sizing: border-box;
   margin: 7px 7px 7px 0;
+  overflow: hidden;
+}
+.content_padding {
+  padding: 40px;
+  height: 100%;
+  overflow-y: scroll;
 }
 .test_block {
   width: 90%;
-  height: 200px;
+  height: 400px;
   background: #ffffff;
   border-radius: 40px;
+  padding: 20px;
+}
+
+//scrollbar styles
+
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 5px;
+border-radius: 5px;
+background-color:#a73853;
+}
+
+::-webkit-scrollbar{
+width: 5px;
 }
 </style>
