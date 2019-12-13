@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>Just call me baby</h1>
+  <div class="test_block">
+    Тут раздел Контакты
   </div>
 </template>
 <script>

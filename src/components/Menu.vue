@@ -7,12 +7,12 @@
     </div>
   </div>
   <div class="menu_block">
-    <router-link class="menu_item" to="/home">
+    <router-link class="menu_item" to="/">
       <p class="rel cv">Резюме</p>
     </router-link>
-    <a href="/" class="menu_item">
+    <router-link class="menu_item" to="/contacts">
       <p class="rel port">Портфолио</p>
-    </a>
+    </router-link>
     <a href="/" class="menu_item">
       <p class="rel services">Услуги</p>
     </a>

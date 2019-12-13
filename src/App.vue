@@ -6,9 +6,7 @@
       </div>
       <div class="content_side">
         <div class="content_padding">
-          <div class="test_block">
-            Тут инфа обо мне, начальная красивая какая нибудь
-          </div>
+          <router-view/>
         </div>
       </div>
     </div>
