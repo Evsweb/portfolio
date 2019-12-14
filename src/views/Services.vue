@@ -1,6 +1,6 @@
 <template>
   <div class="test_block">
-    Главная
+    Раздел услуги
   </div>
 </template>
 <script>

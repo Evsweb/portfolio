@@ -1,30 +1,40 @@
 <template>
 <div class="menu">
-  <div class="avatar_block">
-    <div class="darkest">
-      <img src="../assets/avatar.jpg" alt="">
-      <p>Артем <br> Евсеенков </p>
+  <router-link class="menu_item" to="/">
+    <div class="avatar_block">
+      <div class="darkest">
+        <img src="../assets/avatar.jpg" alt="">
+        <p>Артем <br> Евсеенков </p>
+      </div>
     </div>
-  </div>
+  </router-link>
   <div class="menu_block">
-    <router-link class="menu_item" to="/">
+    <router-link class="menu_item" to="/cv">
       <p class="rel cv">Резюме</p>
     </router-link>
-    <router-link class="menu_item" to="/contacts">
+    <router-link class="menu_item" to="/portfolio">
       <p class="rel port">Портфолио</p>
     </router-link>
-    <a href="/" class="menu_item">
+    <router-link class="menu_item" to="/services">
       <p class="rel services">Услуги</p>
-    </a>
-    <a href="/" class="menu_item">
+    </router-link>
+    <router-link class="menu_item" to="/projects">
       <p class="rel projects">Проекты</p>
-    </a>
-    <a href="/" class="menu_item">
+    </router-link>
+    <router-link class="menu_item" to="/contacts">
       <p class="rel contacts">Контакты</p>
-    </a>
+    </router-link>
   </div>
   <div class="contacts_block">
-    <div class="contacts"></div>
+    <div class="contacts">
+      <div class="contact_name">Контакты</div>
+      <div class="cont_list">
+        <li>ytkep87@yandex.ru</li>
+        <li>112312</li>
+        <li>123123</li>
+      </div>
+      <img src="../assets/wolf.png" alt="" class="wolf">
+    </div>
   </div>
 </div>
 </template>
@@ -49,7 +59,7 @@ export default {
   justify-content: center;
 
   .darkest {
-    background-color: #127876;
+    background-color: #a03472;
     width: 100%;
     box-sizing: border-box;
     margin: 0 35px;
@@ -57,6 +67,7 @@ export default {
     border-radius: 40px;
     position: relative;
     text-align: center;
+    border: 2px solid #a03472;
   }
   img {
     position: absolute;
@@ -121,19 +132,47 @@ export default {
   }
 
   .menu_item:hover {
-    background-color: #a73853;
+    background-color: #a03472;
   }
 }
 
 
 .contacts_block {
   margin-bottom: 7px;
+  position: relative;
   .contacts {
     width: 95%;
-    background-color: #ffffff;
+    background-color: #EFFAFC;
     min-height: 360px;
     margin: 0 auto;
     border-radius: 40px;
+    color: #a03472;
+  }
+  .contact_name {
+    padding-top: 15px;
+    font-size: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .contact_little {
+    margin-top: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .cont_list {
+    margin-top: 20px;
+    margin-left: 40%;
+    font-size: 15px;
+  }
+  .cont_list li {
+    list-style: none;
+  }
+  .wolf {
+    position: absolute;
+    left: -8px;
+    bottom: -25px;
+    width: 150px;
   }
 }
 </style>

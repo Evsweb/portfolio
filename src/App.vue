@@ -85,7 +85,7 @@ a {
 .test_block {
   width: 90%;
   height: 400px;
-  background: #ffffff;
+  background: #ede1ed;
   border-radius: 40px;
   padding: 20px;
 }

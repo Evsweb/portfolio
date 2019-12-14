@@ -14,6 +14,26 @@ const routes = [
     name: 'contacts',
     component: () => import('../views/Contacts.vue'),
   },
+  {
+    path: '/cv',
+    name: 'cv',
+    component: () => import('../views/Cv.vue'),
+  },
+  {
+    path: '/portfolio',
+    name: 'portfolio',
+    component: () => import('../views/Portfolio.vue'),
+  },
+  {
+    path: '/projects',
+    name: 'projects',
+    component: () => import('../views/Projects.vue'),
+  },
+  {
+    path: '/services',
+    name: 'services',
+    component: () => import('../views/Services.vue'),
+  },
 ];
 
 const router = new VueRouter({
