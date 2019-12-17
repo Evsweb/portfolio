@@ -1,6 +1,6 @@
 <template>
-  <div class="test_block">
-    Главная
+  <div class="big-content-block">
+    Главгая
   </div>
 </template>
 <script>

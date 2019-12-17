@@ -29,11 +29,15 @@
     <div class="contacts">
       <div class="contact_name">Контакты</div>
       <div class="cont_list">
-        <li>ytkep87@yandex.ru</li>
-        <li>112312</li>
-        <li>123123</li>
+        <li>tel: +79124960144</li>
+        <li>mail: evsweb@yandex.ru</li>
+        <a href="https://vk.com/evsweb" target="_blank" rel="noopener noreferrer"><li>VK: vk.com/evsweb</li></a>
       </div>
       <img src="../assets/wolf.png" alt="" class="wolf">
+      <img src="../assets/viber_logo.png" alt="+79124960144" class="viber" title="+79124960144">
+      <img src="../assets/telega_logo.png" alt="+79124960144" class="telega" title="+79124960144">
+      <img src="../assets/whatapp_logo.png" alt="+79124960144" class="whatapp" title="+79124960144">
+      <img src="../assets/skype_logo.png" alt="+79124960144" class="skype" title="+79124960144">
     </div>
   </div>
 </div>
@@ -161,8 +165,8 @@ export default {
     text-align: center;
   }
   .cont_list {
-    margin-top: 20px;
-    margin-left: 40%;
+    margin-top: 15px;
+    margin-left: 5%;
     font-size: 15px;
   }
   .cont_list li {
@@ -173,6 +177,33 @@ export default {
     left: -8px;
     bottom: -25px;
     width: 150px;
+  }
+  .viber {
+    position: absolute;
+    left: 140px;
+    bottom: 70px;
+    width: 70px;
+  }
+  .telega {
+    position: absolute;
+    left: 190px;
+    bottom: 140px;
+    width: 70px;
+  }
+  .whatapp {
+    position: absolute;
+    left: 110px;
+    bottom: 170px;
+    width: 70px;
+  }
+  .skype {
+    position: absolute;
+    left: 190px;
+    bottom: 10px;
+    width: 70px;
+  }
+  a {
+    color: #a03472;
   }
 }
 </style>

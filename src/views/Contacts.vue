@@ -1,5 +1,5 @@
 <template>
-  <div class="test_block">
+  <div class="big-content-block">
     Тут раздел Контакты
   </div>
 </template>

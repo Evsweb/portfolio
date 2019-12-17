@@ -46,7 +46,7 @@ export default {
 }
 body {
   font-family: days;
-  background-color: #FEEDD3;
+  background-color: #ebe3da;
   color: #000000;
   box-sizing: border-box;
 }
@@ -82,14 +82,22 @@ a {
   height: 100%;
   overflow-y: scroll;
 }
-.test_block {
-  width: 90%;
-  height: 400px;
+.big-content-block {
+  width: 97%;
   background: #ede1ed;
   border-radius: 40px;
-  padding: 20px;
+  padding: 0 20px 20px;
 }
-
+.big-content-block-second {
+  width: 97%;
+  background: #cafced;
+  border-radius: 40px;
+  padding: 0 20px 20px;
+  margin: 20px 0;
+  }
+.last-wrapper {
+  margin-bottom: 80px;
+}
 //scrollbar styles
 
 ::-webkit-scrollbar-thumb {
