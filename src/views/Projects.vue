@@ -1,7 +1,5 @@
 <template>
-  <div class="big-content-block">
-    Раздел проекты
-  </div>
+    <p>Раздел в разработке, заходите позднее</p>
 </template>
 <script>
 export default {

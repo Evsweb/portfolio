@@ -78,7 +78,7 @@ a {
   overflow: hidden;
 }
 .content_padding {
-  padding: 40px;
+  padding: 20px 40px 40px;
   height: 100%;
   overflow-y: scroll;
 }
@@ -87,14 +87,8 @@ a {
   background: #ede1ed;
   border-radius: 40px;
   padding: 0 20px 20px;
-}
-.big-content-block-second {
-  width: 97%;
-  background: #cafced;
-  border-radius: 40px;
-  padding: 0 20px 20px;
   margin: 20px 0;
-  }
+}
 .last-wrapper {
   margin-bottom: 80px;
 }
