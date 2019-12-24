@@ -21,8 +21,8 @@
     <router-link class="menu_item" to="/projects">
       <p class="rel projects">Проекты</p>
     </router-link>
-    <router-link class="menu_item" to="/contacts">
-      <p class="rel contacts">Контакты</p>
+    <router-link class="menu_item" to="/hr">
+      <p class="rel contacts">Для HR</p>
     </router-link>
   </div>
   <div class="contacts_block">
