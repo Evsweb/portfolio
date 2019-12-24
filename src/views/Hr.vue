@@ -1,6 +1,6 @@
 <template>
   <div class="big-content-block">
-    Тут раздел Контакты
+    Для HR
   </div>
 </template>
 <script>
