@@ -1,7 +1,5 @@
 <template>
-  <div class="big-content-block">
-    Раздел услуги
-  </div>
+  <p>Раздел "Услуги" в разработке, будет готов до 13.01.2020</p>
 </template>
 <script>
 export default {

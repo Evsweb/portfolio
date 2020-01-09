@@ -9,19 +9,19 @@
     </div>
   </router-link>
   <div class="menu_block">
-    <router-link class="menu_item" to="/cv">
+    <router-link class="menu_item" active-class="menu_item-active" to="/cv">
       <p class="rel cv">Резюме</p>
     </router-link>
-    <router-link class="menu_item" to="/portfolio">
+    <router-link class="menu_item" active-class="menu_item-active" to="/portfolio">
       <p class="rel port">Портфолио</p>
     </router-link>
-    <router-link class="menu_item" to="/services">
+    <router-link class="menu_item" active-class="menu_item-active" to="/services">
       <p class="rel services">Услуги</p>
     </router-link>
-    <router-link class="menu_item" to="/projects">
+    <router-link class="menu_item" active-class="menu_item-active" to="/projects">
       <p class="rel projects">Проекты</p>
     </router-link>
-    <router-link class="menu_item" to="/hr">
+    <router-link class="menu_item" active-class="menu_item-active" to="/hr">
       <p class="rel contacts">Для HR</p>
     </router-link>
   </div>
@@ -136,6 +136,9 @@ export default {
   }
 
   .menu_item:hover {
+    background-color: #a03472;
+  }
+  .menu_item-active {
     background-color: #a03472;
   }
 }

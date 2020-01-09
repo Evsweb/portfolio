@@ -10,6 +10,8 @@
         </div>
       </div>
     </div>
+    <div class="no-mobile">К сожалению на сайт временно отсутствует мобильная версия,
+       поверните телефон, либо зайти с устройста побольше, извините за неудобства</div>
   </div>
 </template>
 
@@ -55,7 +57,7 @@ a {
   color: #FEEDD3;
 }
 .wrapper {
-  max-width: 1400px;
+  max-width: 1366px;
   margin: 20px auto;
   background: #18a3a1;
   min-height: 900px;
@@ -102,5 +104,17 @@ background-color:#a73853;
 
 ::-webkit-scrollbar{
 width: 5px;
+}
+.no-mobile {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .wrapper {
+    display: none;
+  }
+  .no-mobile {
+    display: block;
+    font-size: 2em;
+  }
 }
 </style>
