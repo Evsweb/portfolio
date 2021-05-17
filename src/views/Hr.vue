@@ -9,7 +9,7 @@
     <p class="standart-text">
       tel: +79124960144 <br>
       mail: evsweb@yandex.ru <br>
-      Установлены все мессенджеры, так что можете писать туда
+      Установлены все мессенджеры, можете писать туда
     </p>
     <p>
       <router-link class="link" to="/cv">
@@ -33,7 +33,7 @@
 export default {
 };
 </script>
-<style scoped lang="scss">
+<style lang="scss" scoped>
 .big-content-block {
   height: 90%;
   padding-top: 2em;
