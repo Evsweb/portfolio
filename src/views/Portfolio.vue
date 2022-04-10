@@ -9,6 +9,7 @@
         <div class="description_block">
           <span>Описание:</span>
           <p>{{item.description}}</p>
+<!--          kek-->
         </div>
         <div class="description_block">
           <span>Технологии, библиотеки, особенности:</span>
