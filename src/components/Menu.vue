@@ -1,46 +1,46 @@
 <template>
-<div class="menu">
-  <router-link class="menu_item" to="/">
-    <div class="avatar_block">
-      <div class="darkest">
-        <img src="../assets/avatar.jpg" alt="">
-        <p>Артем <br> Евсеенков </p>
+  <div class="menu">
+    <router-link class="menu_item" to="/">
+      <div class="avatar_block">
+        <div class="darkest">
+          <img src="../assets/avatar.jpg" alt="">
+          <p>Артем <br> Евсеенков </p>
+        </div>
+      </div>
+    </router-link>
+    <div class="menu_block">
+      <router-link class="menu_item" active-class="menu_item-active" to="/cv">
+        <p class="rel cv">Резюме</p>
+      </router-link>
+      <router-link class="menu_item" active-class="menu_item-active" to="/portfolio">
+        <p class="rel port">Портфолио</p>
+      </router-link>
+      <router-link class="menu_item" active-class="menu_item-active" to="/services">
+        <p class="rel services">Услуги</p>
+      </router-link>
+      <router-link class="menu_item" active-class="menu_item-active" to="/projects">
+        <p class="rel projects">Проекты</p>
+      </router-link>
+      <router-link class="menu_item" active-class="menu_item-active" to="/hr">
+        <p class="rel contacts">Для HR</p>
+      </router-link>
+    </div>
+    <div class="contacts_block">
+      <div class="contacts">
+        <div class="contact_name">Контакты</div>
+        <div class="cont_list">
+          <li>tel: +79124960144</li>
+          <li>mail: evsweb@yandex.ru</li>
+          <a href="https://vk.com/evsweb" target="_blank" rel="noopener noreferrer"><li>VK: vk.com/evsweb</li></a>
+        </div>
+        <img src="../assets/wolf.png" alt="" class="wolf">
+        <img src="../assets/viber_logo.png" alt="+79124960144" class="viber" title="+79124960144">
+        <img src="../assets/telega_logo.png" alt="+79124960144" class="telega" title="+79124960144">
+        <img src="../assets/whatapp_logo.png" alt="+79124960144" class="whatapp" title="+79124960144">
+        <img src="../assets/skype_logo.png" alt="+79124960144" class="skype" title="+79124960144">
       </div>
     </div>
-  </router-link>
-  <div class="menu_block">
-    <router-link class="menu_item" active-class="menu_item-active" to="/cv">
-      <p class="rel cv">Резюме</p>
-    </router-link>
-    <router-link class="menu_item" active-class="menu_item-active" to="/portfolio">
-      <p class="rel port">Портфолио</p>
-    </router-link>
-    <router-link class="menu_item" active-class="menu_item-active" to="/services">
-      <p class="rel services">Услуги</p>
-    </router-link>
-    <router-link class="menu_item" active-class="menu_item-active" to="/projects">
-      <p class="rel projects">Проекты</p>
-    </router-link>
-    <router-link class="menu_item" active-class="menu_item-active" to="/hr">
-      <p class="rel contacts">Для HR</p>
-    </router-link>
   </div>
-  <div class="contacts_block">
-    <div class="contacts">
-      <div class="contact_name">Контакты</div>
-      <div class="cont_list">
-        <li>tel: +79124960144</li>
-        <li>mail: evsweb@yandex.ru</li>
-        <a href="https://vk.com/evsweb" target="_blank" rel="noopener noreferrer"><li>VK: vk.com/evsweb</li></a>
-      </div>
-      <img src="../assets/wolf.png" alt="" class="wolf">
-      <img src="../assets/viber_logo.png" alt="+79124960144" class="viber" title="+79124960144">
-      <img src="../assets/telega_logo.png" alt="+79124960144" class="telega" title="+79124960144">
-      <img src="../assets/whatapp_logo.png" alt="+79124960144" class="whatapp" title="+79124960144">
-      <img src="../assets/skype_logo.png" alt="+79124960144" class="skype" title="+79124960144">
-    </div>
-  </div>
-</div>
 </template>
 
 <script>
@@ -142,7 +142,6 @@ export default {
     background-color: #a03472;
   }
 }
-
 
 .contacts_block {
   margin-bottom: 7px;

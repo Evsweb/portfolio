@@ -9,7 +9,7 @@
         <div class="description_block">
           <span>Описание:</span>
           <p>{{item.description}}</p>
-<!--          kek-->
+          <!--          kek-->
         </div>
         <div class="description_block">
           <span>Технологии, библиотеки, особенности:</span>
@@ -24,7 +24,7 @@
         </div>
       </div>
     </div>
-    <div class="last-wrapper"></div>
+    <div class="last-wrapper" />
   </div>
 </template>
 

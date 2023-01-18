@@ -2,25 +2,25 @@
   <div id="app">
     <div class="wrapper">
       <div class="menu_side">
-        <Menu />
+        <MainMenu />
       </div>
       <div class="content_side">
         <div class="content_padding">
-          <router-view/>
+          <router-view />
         </div>
       </div>
     </div>
     <div class="no-mobile">К сожалению на сайт временно отсутствует мобильная версия,
-       поверните телефон, либо зайти с устройста побольше, извините за неудобства</div>
+      поверните телефон, либо зайти с устройста побольше, извините за неудобства</div>
   </div>
 </template>
 
 <script>
-import Menu from '@/components/Menu.vue';
+import MainMenu from './components/Menu.vue';
 
 export default {
   components: {
-    Menu,
+    MainMenu,
   },
 };
 </script>
